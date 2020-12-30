@@ -44,17 +44,17 @@ start_time=time.time()
 
 # example 2: of a 3 element test in 2d - plane strain: linear elastic material response
 # 4-noded linear elements
-[io_file_name,nparts,nmat,ndf,ndm,nst,nnp,nel,nen,nqp,X1,connectivity,
-    material_number,material,
-    drlt,drltLoad,neum,neumLoad,b_vec,loadcurve,
-    solveparameter]=input_3el_plane_strain()   
-
-# example 3: of 3d beam: linear elastic material response
-# 8 noded linear 3d elements
 #[io_file_name,nparts,nmat,ndf,ndm,nst,nnp,nel,nen,nqp,X1,connectivity,
 #    material_number,material,
 #    drlt,drltLoad,neum,neumLoad,b_vec,loadcurve,
-#    solveparameter]=input_3d_beam()
+#    solveparameter]=input_3el_plane_strain()   
+
+# example 3: of 3d beam: linear elastic material response
+# 8 noded linear 3d elements
+[io_file_name,nparts,nmat,ndf,ndm,nst,nnp,nel,nen,nqp,X1,connectivity,
+    material_number,material,
+    drlt,drltLoad,neum,neumLoad,b_vec,loadcurve,
+    solveparameter]=input_3d_beam()
 
 ###############################################################################
 # end of defining input
